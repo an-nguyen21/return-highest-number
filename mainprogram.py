@@ -1,3 +1,4 @@
-first_number = input("Enter a number: ")
-second_number = input("Enter another number: ")
+one, two = input("Enter two numbers: ").split()
+largest = max(one, two)
+print(largest)
 
